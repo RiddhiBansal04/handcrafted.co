@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Winky+Sans:ital,wght@1,300..900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+    /* background-color: #F16521; */
+}
+
+.categories-banner {
+    text-align: center;
+    background-color: #FFD7A0;
+    padding: 150px 20px;
+    color: #333;
+}
+
+.categories-banner h1 {
+    font-size: 42px;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    font-weight: bold;
+}
+
+.categories-banner p {
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: "Winky Sans", sans-serif;
+    margin-left: -10px;
+}
+
+h2{
+    margin-top:50px;
+    margin-left:50px ;
+    margin-bottom:-10px;
+}
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.category {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+.category img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.category img:hover {
+    transform: scale(1.05);
+}
+
+
+.category h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+}

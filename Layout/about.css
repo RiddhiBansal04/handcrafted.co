@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Winky+Sans:ital,wght@1,300..900&display=swap');
+body {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+.about-banner {
+    text-align: center;
+    background-color: #FFD7A0;
+    padding: 150px 20px;
+    color: #333;
+}
+.about-banner h1 {
+    font-size: 42px;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    font-weight: bold;
+}
+
+.about-banner p {
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: "Winky Sans", sans-serif;
+    margin-left:-10px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+    background: white;
+    border-radius: 15px;
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-text {
+    max-width: 600px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.about-text h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.about-text h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #FF8C00;
+    margin-top: 5px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.about-text ul li {
+    margin-bottom: 8px;
+}
+
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
